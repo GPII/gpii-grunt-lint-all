@@ -9,7 +9,6 @@ var foo = "bar";
  *  - `message`: a mesage about the results of the call.
  */
 var myFunc = function (myString) {
-    console.log(myString);
-    return { isError: false, message: "yay" };
+    return { isError: false, message: "yay " + myString };
 };
 myFunc(foo);

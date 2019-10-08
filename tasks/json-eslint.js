@@ -11,7 +11,7 @@ var eslint = require("fluid-eslint");
 
 module.exports = function (grunt) {
     // Wrap the JSON(5) content in minimal valid Javascript code so tha we can test it using ESLint.
-    var wrapperTemplate = "/* eslint-env node */ \"use strict\"; var wrappedVar = %jsonContent; console.log(wrappedVar);\n";
+    var wrapperTemplate = "/* eslint-env node */ \"use strict\"; var wrappedVar = %jsonContent; /* eslint-disable no-console */ console.log(wrappedVar); /* eslint-enable no-console */\n";
     grunt.registerMultiTask("json-eslint", "Lint JSON(5) files against ESLint rules.", function () {
         var opts = this.options({});
 
