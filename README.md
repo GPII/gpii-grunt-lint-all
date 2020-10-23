@@ -77,7 +77,9 @@ Please note that many of the above checks use our standard ESLint configuration,
 [eslint-config-fluid](https://github.com/fluid-project/eslint-config-fluid) package. You will need to follow the installation
 instructions in that package before you run many of the above checks.
 
-The stylelint check uses our standard Stylelint configuration which is available in the [stylelint-config-fluid](https://github.com/fluid-project/stylelint-config-fluid) package. You will need to follow the installation instructions in that package before you run the stylelint check against CSS or SCSS files.
+The stylelint check uses our standard Stylelint configuration which is available in the
+[stylelint-config-fluid](https://github.com/fluid-project/stylelint-config-fluid) package.You will need to follow the
+installation instructions in that package before you run the stylelint check against CSS or SCSS files.
 
 ### Customizing Configurations
 
