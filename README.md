@@ -71,10 +71,15 @@ documentation, see below:
 | lintspaces:newlines        | Check for the presence of a carriage return at the end of a file. | [grunt-lintspaces](https://github.com/schorfES/grunt-lintspaces) |
 | markdownlint               | Check the formatting of Markdown files. | [grunt-markdownlint](https://github.com/sagiegurari/grunt-markdownlint) |
 | mdjsonlint                 | Check the validity and formatting of JSON code blocks within Markdown files. | (Provided by this package.  See below)) |
+| stylelint                  | Check the formatting of CSS or SCSS files. | [grunt-stylelint](https://github.com/wikimedia/grunt-stylelint) |
 
 Please note that many of the above checks use our standard ESLint configuration, which is available in the
-[eslint-config-fluid](https://github.com/fluid-project/eslint-config-fluid).  You will need to follow the installation
+[eslint-config-fluid](https://github.com/fluid-project/eslint-config-fluid) package. You will need to follow the installation
 instructions in that package before you run many of the above checks.
+
+The stylelint check uses our standard Stylelint configuration which is available in the
+[stylelint-config-fluid](https://github.com/fluid-project/stylelint-config-fluid) package.You will need to follow the
+installation instructions in that package before you run the stylelint check against CSS or SCSS files.
 
 ### Customizing Configurations
 
